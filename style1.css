@@ -1,0 +1,138 @@
+/* 
+    Created on : 9 Nov, 2017, 9:35:12 AM
+    Author     : Ishita
+*/
+ body{
+     max-width:1000px;
+     margin:auto;
+     font-family:Verdana;
+                font-size:16px;
+              }
+            
+              .box{
+                  display:inline-block;
+                  width:50%;
+                  float:left;
+              }
+              .list_box{
+                  width:100%;
+                  overflow:hidden;
+                  
+              }
+              #image{
+                  float:left;
+                  padding:0px 20px 20px 20px;
+              }
+              #identity{
+                  overflow:auto;
+              }
+              #display{
+                  background-image: url("img/bat_cover.jpg");
+                  height:350px;
+                  padding-top:50px;
+                  color:#fff;
+                  margin-top:25px;
+              }
+              #content{
+                  background-color:rgba(0,0,0,0.7);
+                  max-width:500px;
+                  padding:30px 20px;
+                  margin-top:50px;
+              }
+              
+              .thumbnail{
+                  display:inline-block;
+                  height:auto;
+                  padding:4px;
+                  margin-bottom:20px;
+                  background-color:#fff;
+                  border:1px solid #a4a4a4;
+                  text-align:center;
+                  color:#666;
+                  margin:45px;
+              }
+              table{
+                  border:1px solid;
+                  width:100%;
+                  border-collapse: collapse;
+              }
+              th,td{
+                  padding:15px;
+                  border:1px solid #a4a4a4;
+                  height:30px;
+              }
+              th{text-align: left;
+              background-color:#ecece;}
+              nav{
+                 
+                  margin:0px;
+                  padding:0px;
+              }
+              ul{
+                   list-style-type:none;
+              }
+            
+              li a{
+                  display:inline;
+                  color:#666;
+                  padding:14px 16px;
+                  text-decoration:none;
+                  float:right;
+              }
+              .logo{
+                  float:left;
+                  height:50px;
+              }
+              #header{
+                  padding:5px 0px;
+                  border-bottom:1px solid;
+                  height:50px;
+              }
+              input{
+                  padding:14px 70px;
+                  font-size:15px;
+                  margin-bottom:30px;
+              }
+              #subscribe{
+              border:none;
+              background-color:#26211f;
+              color:#ffffff;
+              font-size:16px;
+              margin:4px -4px;
+              padding:16px 40px;
+              }
+              @media(min-width:320px){
+                  .container{
+                      width:320px;
+                  }
+              }
+              @media(min-width:481px){
+                  .container{width:481px;
+                  }
+              }
+              @media(min-width:641px)
+              {
+                  .container{width:641px;}
+              }
+              @media(min-width:961px)
+              {
+                  .container{
+                      width:961px;
+                  }
+              }
+              @media(min-width:100px)
+              {
+                  .container{width:1000px;}
+              }
+              @media(max-width:481px)
+              {
+                  .box{
+                      width:100%;
+                  }
+                  #image{
+                      width:100%;
+                  }
+                  h2{
+                      text-align:center;
+                  }
+              }
